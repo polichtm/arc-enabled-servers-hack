@@ -19,7 +19,7 @@ Once deployed, you will install the Azure Arc agent on the Hyper-V VM running Wi
 1. Deploy an Azure VM running Windows Server 2019 with the Hyper-V role installed by using the [301-nested-vms-in-virtual-network Azure QuickStart template](https://github.com/Azure/azure-quickstart-templates/tree/master/301-nested-vms-in-virtual-network). 
 
 2. Connect to the Azure VM by using Remote Desktop and use Hyper-V Manager to create a Windows Server 2019 VM. Use the Windows Server 2019 **VHD** file available from 
-Windows Server Evaluations](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019).
+[Windows Server Evaluations](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019).
 
    >**Note**: You will have to modify the Network Security Group associated with the network adapter of the Azure VM deployed via the Quickstart template to allow incoming RDP connections.
 

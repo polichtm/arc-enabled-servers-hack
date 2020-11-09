@@ -19,7 +19,7 @@ In the last challenge you deployed a server and then enabled it as an Azure reso
 
 ### Success Criteria
 
-1. Azure Arc connected servers should have a tag applied by the policy you created in Challenge #1. 
+1. Azure Arc connected servers should have a tag applied by the policy you created in this challenge. 
 
 2. Azure Arc connected servers should have the Log Analytics agent deployed and working.
 
