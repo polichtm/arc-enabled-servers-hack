@@ -8,7 +8,7 @@
 
 ### Introduction
 
-[Azure Arc enabled Servers](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview) allows customers to use Azure management tools on any server running in any public cloud or on-premises environment. In order to accomplish this, a [lightweight agent](https://docs.microsoft.com/en-us/azure/azure-arc/servers/agent-overview) must be deployed onto the server. Once deployed, this agent "projects" this server as an Azure Arc resource. As an Azure resource, this server can now be managed as if it were a VM hosted natively in Azure. 
+[Azure Arc enabled Servers](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview) allows customers to use Azure management tools on any server running in any public cloud or on-premises environment. In order to accomplish this, a [lightweight agent](https://docs.microsoft.com/en-us/azure/azure-arc/servers/agent-overview) must be deployed onto the server. Once deployed, this agent "projects" this server as an Azure Arc resource. As an Azure resource, this server can now be managed as if it were a VM hosted natively in Azure.
 
 In this challenge, you will need to deploy an Azure VM running Windows Server with the Hyper-V role to your Azure subscription. Next, you will create a Hyper-V VM running Windows Server 2019 within that Azure VM. You will use this Windows Server 2019 VM to emulate a non-Azure VM. 
 
